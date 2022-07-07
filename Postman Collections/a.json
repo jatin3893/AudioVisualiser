@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "10238fb9-44e0-47c6-9b74-240e27648847",
+		"name": "Shopigram",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FB Webhook Connect",
+			"_postman_id": "4450d1b5-a24c-4683-9b6f-ead21d1afb6f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": "{{url}}/health"
+			},
+			"response": []
+		}
+	]
+}
